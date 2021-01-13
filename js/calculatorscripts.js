@@ -20,7 +20,12 @@ function add(number1, number2) {
 }
 
 // user Logic
-const number1 = parseInt(prompt("Enter a number:"));
-const number2 = parseInt(prompt("Enter another number:"));
-const result = multiply(number1, number2);
-alert(result);
+$(document).ready(function() {
+  $("form#buttons").submit(function(event) {
+    event.preventDefault();
+    const number1 = parseInt($("#add1").val());
+    const number2 = parseInt($("#add2").val());
+    const resultAdd = add(number1, number2);
+    $("#output").text(resultAdd);
+  });
+});

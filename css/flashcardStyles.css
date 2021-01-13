@@ -1,6 +1,6 @@
 * {
-  padding: 0%;
-  margin: 0%;
+  padding: 1%;
+  margin: 1%;
 }
 
 .JS {
@@ -13,4 +13,29 @@
 
 .red-background {
   background-color: red;
+}
+
+.card-answer1 {
+  display: none;
+  color: blue;
+}
+
+.card-answer2 {
+  display: none;
+  color: blue;
+}
+
+.card-answer3 {
+  display: none;
+  color: blue;
+}
+
+.card-answer4 {
+  display: none;
+  color: blue;
+}
+
+.card-answer5 {
+  display: none;
+  color: blue;
 }
