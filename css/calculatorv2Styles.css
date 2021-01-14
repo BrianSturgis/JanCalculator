@@ -1,0 +1,9 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  background-color: rgb(40, 177, 131);
+}
+
+#answer {
+  display: none;
+}

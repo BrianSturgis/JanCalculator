@@ -11,7 +11,8 @@
   <h1>MOTHER F'n Calculator</h1>
   <div class="container">
     <h1>Calculator</h1>
-    <form id="buttons">
+
+    <form id="userInputs">
       <div class="form-group">
         <label for="add1">1st number:</label>
         <input id="add1" class="form-control" type="text">
@@ -20,14 +21,59 @@
         <label for="add2">2nd number:</label>
         <input id="add2" class="form-control" type="text">
       </div>
-      <button type="submit" class="btn" id="add">Add!</button>
-      <!-- <button type="submit" class="btn"id="sub">Subtract!</button>
-      <button type="submit" class="btn"id="mul">multiply!</button>
-      <button type="submit" class="btn"id="divide">Divide!</button>
-      <button type="submit" class="btn"id="remain">Remainder!</button> -->
+      <select class="form-control" id="beverage">
+        <option value="1"></option>
+        <option value="2">+</option>
+        <option value="3">-</option>
+        <option value="4">*</option>
+        <option value="5">/</option>
+        <option value="6">%</option>
+      </select>
+      <div class="radio">
+        <label>
+          <input type="radio" name="flavor" value="chocolate" checked>
+          Chocolate
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="flavor" value="vanilla">
+          Vanilla
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="flavor" value="cookiesandcream">
+          Cookies & Cream
+        </label>
+      </div>
     </form>
+    <Form id="addition">
+      <div class="operators">
+        <button type="submit" class="btn" id="add">Add!</button>
+      </div>
+    </Form>
+    <Form id="subtraction">
+      <div class="operators">
+        <button type="submit" class="btn"id="sub">Subtract!</button>
+      </div>
+    </Form>
+    <Form id="multiplication">
+      <div class="operators">
+        <button type="submit" class="btn"id="sub">multiply</button>
+      </div>
+    </Form>
+    <Form id="division">
+      <div class="operators">
+        <button type="submit" class="btn"id="sub">divide</button>
+      </div>
+    </Form>
+    <Form id="remainder">
+      <div class="operators">
+        <button type="submit" class="btn"id="sub">remainder of</button>
+      </div>
+    </Form>
     <div id="output">
-      
     </div>
   </div>
 </body>
