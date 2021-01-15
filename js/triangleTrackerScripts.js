@@ -1,10 +1,12 @@
+
+
 $(document).ready(function() {
   $("form#sub").submit(function(event) {
-    const side1 = parseInt($("input#add1").val());
+    const side1 = $("input#add1").val();
     console.log(side1);
-    const side2 = parseInt($("input#add2").val());
+    const side2 = $("input#add2").val();
     console.log(side2);
-    const side3 = parseInt($("input#add3").val());
+    const side3 = $("input#add3").val();
     console.log(side3);
 
     if (side1 > side2 + side3 || side2 > side1 + side3 || side3 > side1 + side2) {
