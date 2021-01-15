@@ -17,7 +17,7 @@ This is the Week 2 workbook i used while at Epicodus for the January 2021 COHORT
 
 
 ## Setup/Installation Requirements
-- repository location (https://github.com/BrianSturgis/JanWeek1Project)
+- repository location (https://github.com/BrianSturgis/[JanWeek1Project)](https://github.com/BrianSturgis/JanCalculator)
 - open through a git terminal or clone editor.
 - got to repo location.
 - using git commands clone to local repo
@@ -25,22 +25,18 @@ This is the Week 2 workbook i used while at Epicodus for the January 2021 COHORT
 - open the index.html file to view the website
 
 ## GIT HUB
-- repository location (https://github.com/BrianSturgis/JanWeek1Project
+- repository location [(https://github.com/BrianSturgis/JanWeek1Project](https://github.com/BrianSturgis/JanCalculator)
 - open through a git terminal or clone editor.
 - got to repo location.
 - using git commands clone to local repo or click "download" and unpack on machine
 
 ## GIT HUB PAGES LINK
-https://briansturgis.github.io/JanWeek1Project/
+this project is currently not linked to this service
 
 ## Stretch goals
-- color blind mode
-- fun modes (dark mode,laser mode,childrens book art)
-- background music
-- animated UI
-- unity driven UI
-- Adobe DSP workflow fully integrated 
-
+- navigation system
+- basic ui for every app
+  
 ## Support and contact details
 email Brian Sturgis @ <sturujisu@gmail.com>
 
@@ -51,10 +47,7 @@ email Brian Sturgis @ <sturujisu@gmail.com>
 * Visual Studio Code
 * Git
 * GitHub
-* Adobe Photoshop
-* Adobe Premeire
-* Windows PC
-* coffee
+
 
 ### License
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
