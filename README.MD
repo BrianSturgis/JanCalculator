@@ -10,22 +10,28 @@
 "JAN COHORT week 2 wok book"
 This is the Week 2 workbook i used while at Epicodus for the January 2021 COHORT.  This is a web based application that is used to practice javascript fundamentals.  
 
+- triangleTracker.html: allows the user to input the lengths of the sides of a triangle, and returns whether these sides form an equilateral, isosceles, or scalene triangle or if the sides cannot make a triangle at all.
+- test.html: a simple boiler plate to use to grab when creating a new project.
+- talk.html: 
+
 
 
 ## Known Bugs
-- Application in its current state is series of individual apps that are not linked together and mus be run via live server
+- Application in its current state is series of individual apps that are not linked together and must be run via live server individually via their html files
+- each application has a linked style sheet and scripts sheet.
 
 
 ## Setup/Installation Requirements
-- repository location (https://github.com/BrianSturgis/[JanWeek1Project)](https://github.com/BrianSturgis/JanCalculator)
+- repository location (https://github.com/BrianSturgis/JanCalculator)
 - open through a git terminal or clone editor.
 - got to repo location.
 - using git commands clone to local repo
 - or click "download" and unpack on machine
-- open the index.html file to view the website
+- open the index.html file to view the website  
+
 
 ## GIT HUB
-- repository location [(https://github.com/BrianSturgis/JanWeek1Project](https://github.com/BrianSturgis/JanCalculator)
+- repository location (https://github.com/BrianSturgis/JanCalculator)
 - open through a git terminal or clone editor.
 - got to repo location.
 - using git commands clone to local repo or click "download" and unpack on machine
